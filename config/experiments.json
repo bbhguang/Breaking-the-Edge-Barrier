@@ -1,0 +1,15 @@
+{
+  "epsilons": [0.1, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8, 2.0],
+  "trials": 20,
+  "delta_total": 1e-8,
+  "degree_epsilon_fraction": 0.1,
+  "degree_delta_fraction": 0.1,
+  "degree_quantile": 0.9,
+  "threads": 16,
+  "datasets": {
+    "Facebook": "facebook/edges.csv",
+    "Enron": "Enron/edges.csv",
+    "GPlus": "GPlus/edges.csv",
+    "IMDB": "IMDB/edges.csv"
+  }
+}

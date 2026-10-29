@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shuftriplus"
+version = "0.1.0"
+description = "ShufTri+ triangle-counting experiments"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.scripts]
+shuftriplus = "shuftriplus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
